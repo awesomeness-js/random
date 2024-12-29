@@ -1,3 +1,11 @@
+/**
+ * Generates a random string of a specified length.
+ *
+ * @param {Object} [options={}] - The options for generating the random string.
+ * @param {number} [options.minLength=5] - The minimum length of the random string.
+ * @param {number} [options.maxLength=8] - The maximum length of the random string.
+ * @returns {string} A random string of random length between minLength and maxLength.
+ */
 export default ({
 	minLength = 5,
 	maxLength = 8
