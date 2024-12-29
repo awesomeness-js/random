@@ -8,7 +8,7 @@ This is just a minimalistic project.
 
 example usage:
 ```javascript   
-const random = require('@awesomeness-js/random');
+import random from '@awesomeness-js/random';
 
 const randomString = random.string({ minLength: 5, maxLength: 8 });
 console.log({randomString});
