@@ -12,5 +12,8 @@
   "license": "MIT",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@awesomeness-js/utils": "^1.0.1"
   }
 }
