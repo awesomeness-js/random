@@ -1,0 +1,12 @@
+{
+  "name": "@awesomeness-js/random",
+  "version": "1.0.0",
+  "description": "Awesomeness - Random",
+  "type": "module",
+  "main": "index.js",
+  "author": "Scott Forte",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
