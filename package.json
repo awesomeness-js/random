@@ -1,0 +1,19 @@
+{
+  "name": "@awesomeness-js/random",
+  "version": "1.0.5",
+  "description": "Awesomeness - Random",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awesomeness-js/random.git"
+  },
+  "type": "module",
+  "main": "index.js",
+  "author": "Scott Forte",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@awesomeness-js/utils": "^1.0.2"
+  }
+}
