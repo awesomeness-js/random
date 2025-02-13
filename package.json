@@ -1,11 +1,16 @@
 {
   "name": "@awesomeness-js/random",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "Awesomeness - Random",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/awesomeness-js/random.git"
   },
+  "scripts": {
+    "prebuild": "node ./build/build.js",
+    "build": "tsc && npm run postBuild",
+    "postBuild": "node ./build/postBuild.js"
+  }, 
   "type": "module",
   "main": "index.js",
   "author": "Scott Forte",
